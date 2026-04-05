@@ -43,6 +43,7 @@ endif()
 
 set(USB_ITF_CCID 1)
 set(USB_ITF_WCID 1)
+set(ENABLE_EDDSA 1)
 include(cmake/version.cmake)
 include(pico_keys_sdk_import.cmake)
 if(NOT ESP_PLATFORM)
